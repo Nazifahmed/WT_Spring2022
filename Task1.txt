@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+         <h1 style=text-align:left>Registration Form</h1>
+         <form>
+             <table>
+                 <tr>
+                     <td>
+                         First Name:
+                     </td>
+                     <td>
+                         <input type="text">
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         Last Name:
+                     </td>
+                     <td>
+                         <input type="text">
+                     </td>
+                 </tr>
+                 
+                     <td>
+                         Age:
+                     </td>
+                     <td>
+                         <input type="age">
+                     </td>
+                     <td>
+                         <input type="age">
+                     </td>
+                 
+                 <tr>      
+                     <td>
+                         Designation:
+                     </td>
+                     <td>
+                         <input type="radio" name="Desgination">Junior Programmer
+                         <input type="radio" name="Desgination">Senior Programmer
+                         <input type="radio" name="Desgination">Project Lead
+                    </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         Preferred Language : 
+                     </td>
+                     <td>
+                         <input type="checkbox" name="Preferred Language">JAVA
+                         <input type="checkbox" name="Preferred Language"> PHP
+                         <input type="checkbox" name="Preferred Language"> C++
+                    </td>
+                 </tr>
+
+                     <td>
+                         Email Id:
+                     </td>
+                     <td>
+                         <input type="email">
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                        Password : 
+                     </td>
+                     <td>
+                         <input type="password" name="Password">
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                       Please choose a file  
+                     </td>
+                     <td>
+                         <input type="file">
+                     </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <input type="submit">
+                        <input type="reset">
+
+                     </td>
+                 </tr>
+             </table>
+         </form>
+     </body>
+</html>
